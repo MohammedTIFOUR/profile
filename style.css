@@ -1,0 +1,106 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: aliceblue;
+  font-family: Poppins;
+  font-weight: 300;
+  color: rgb(60, 60, 60);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: firebrick;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  border: palevioletred;
+  color: palevioletred;
+}
+
+.btn-rose a:hover {
+   color: purple;
+}
+
+a:hover {
+   color: purple;
+}
+
+p {
+  margin: 20px 40px;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  box-shadow: 5px 5px 12px rgb(220, 220, 220);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 2px 2px 8px rgb(220, 220, 220);
+}
+
+.btn-rose {
+  background: palevioletred;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-weight: 500;
+  margin: 15px auto;
+  width: 130px;
+}
+
+.btn-rose a {
+  color: white;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
